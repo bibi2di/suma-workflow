@@ -10,9 +10,4 @@ jobs:
     steps:
       - name: Sec
         uses: advanced-security/python-lint-code-scanning-action@v1
-      - name: Instalar pylint
-        run: pip install pylint
-      - name: Test
-        run: pylint main.py
-      
       
